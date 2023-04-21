@@ -1,4 +1,4 @@
-let url = `https://orbitz-ujjawal-api.herokuapp.com/rooms`
+let url = `https://orbitz-server-backend.onrender.com/rooms`
 // let url = `http://fake-hotel-api.herokuapp.com/api/hotels`
 fetch(url).then(function (res) {
     return res.json();
