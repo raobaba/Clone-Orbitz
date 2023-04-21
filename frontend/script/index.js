@@ -1,6 +1,6 @@
 async function query() {
   let query = document.getElementById("query").value;
-  let url = `https://orbitz-ujjawal-api.herokuapp.com/airports?q=${query}`;
+  let url = `https://orbitz-server-backend.onrender.com/api/airports?q=${query}`;
   if (!query) {
     return append([]);
   }
