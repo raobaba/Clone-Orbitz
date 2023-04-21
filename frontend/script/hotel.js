@@ -5,7 +5,7 @@ let searchQuery = query.query;
 console.log(searchQuery)
 
 
-const url = `https://orbitz-ujjawal-api.herokuapp.com/hotels?q=${
+const url = `https://orbitz-server-backend.onrender.com/api/hotel?q=${
   searchQuery ? searchQuery : "mumbai"
 }`;
 
